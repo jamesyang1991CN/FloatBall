@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/d2d_info"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:alpha="0.6"
+    android:paddingHorizontal="10dp"
+    android:background="#cb000000"
+    android:divider="@drawable/divider_horizontal"
+    android:showDividers="middle">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|left"
+        android:paddingVertical="5dp">
+        <ImageView
+
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_launcher"/>
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:gravity="center_vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="@android:color/holo_orange_dark"
+            android:text="@string/app_name"/>
+
+    </LinearLayout>
+<android.support.v4.widget.NestedScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:orientation="vertical">
+
+        <!--ul freq hop-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_d2d_config_ul_freq_hop"
+                android:textColor="@android:color/holo_green_light"
+                android:textSize="15dp"
+                />
+            <TextView
+                android:id="@+id/d2d_ul_freq_hop"
+                android:layout_marginLeft="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_orange_dark"
+                android:text="@string/str_d2d_freq_hopping_disabled"/>
+        </LinearLayout>
+
+        <!--dl freq hop-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_d2d_config_dl_freq_hop"
+                android:textColor="@android:color/holo_green_light"
+                android:textSize="15dp"
+                />
+            <TextView
+                android:id="@+id/d2d_dl_freq_hop"
+                android:layout_marginLeft="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_orange_dark"
+                android:text="@string/str_d2d_freq_hopping_disabled"/>
+        </LinearLayout>
+
+        <!--radio power-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_d2d_config_radio_power"
+                android:textColor="@android:color/holo_green_light"
+                android:textSize="15dp"
+                />
+            <TextView
+                android:id="@+id/d2d_radio_power"
+                android:layout_marginLeft="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_orange_dark"
+                android:text="@string/str_d2d_radio_power_enabled"/>
+        </LinearLayout>
+
+
+        <!-- controller signal-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_controller_signal_strength"
+                android:textColor="@android:color/holo_green_light"
+                android:textSize="15dp"
+                />
+            <TextView
+                android:id="@+id/d2d_controller_signal_strength"
+                android:layout_marginLeft="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_orange_dark"
+                android:text="@string/str_signal_strength_unknown"/>
+        </LinearLayout>
+
+        <!--plane signal-->
+       <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+           android:paddingTop="2dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_plane_signal_strength"
+                android:textColor="@android:color/holo_green_light"
+                android:textSize="15dp"
+                />
+            <TextView
+                android:id="@+id/d2d_plane_signal"
+                android:layout_marginLeft="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_orange_dark"
+                android:text="@string/str_signal_strength_unknown"/>
+        </LinearLayout>
+
+
+        <!--plane service state-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_plane_service_state"
+                android:textColor="@android:color/holo_green_light"
+                android:textSize="15dp"
+                />
+            <TextView
+                android:id="@+id/d2d_plane_service_state"
+                android:layout_marginLeft="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_orange_dark"
+                android:text="@string/str_d2d_disconnected"/>
+        </LinearLayout>
+
+        <!--plane QOS-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_plane_qos"
+                android:textColor="@android:color/holo_green_light"
+                android:textSize="15dp"
+                />
+            <TextView
+                android:id="@+id/d2d_plane_qos"
+                android:layout_marginLeft="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_orange_dark"
+                android:text="@string/str_signal_strength_unknown"/>
+        </LinearLayout>
+
+        <!--dl frequency-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/d2d_config_command_dl_frequency"
+                android:textColor="@android:color/holo_green_light"
+                android:textSize="15dp"
+                />
+            <TextView
+                android:id="@+id/d2d_dl_frequency"
+                android:layout_marginLeft="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_orange_dark"
+                android:text="@string/str_signal_strength_unknown"/>
+        </LinearLayout>
+
+
+        <!--iface dev-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_d2d_config_iface_dev"
+                android:textColor="@android:color/holo_green_light"
+                android:textSize="15dp"
+                />
+            <TextView
+                android:id="@+id/d2d_iface_dev"
+                android:layout_marginLeft="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_orange_dark"
+                android:text="@string/str_d2d_iface_40"/>
+        </LinearLayout>
+
+
+
+        <!--ul bandwidth-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_d2d_config_ul_bandwidth"
+                android:textColor="@android:color/holo_green_light"
+                android:textSize="15dp"
+                />
+            <TextView
+                android:id="@+id/d2d_ul_bandwidth"
+                android:layout_marginLeft="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_orange_dark"
+                android:text="@string/NA"/>
+        </LinearLayout>
+
+        <!--dl bandwidth-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="2dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/str_d2d_config_dl_bandwidth"
+                android:textColor="@android:color/holo_green_light"
+                android:textSize="15dp"
+                />
+            <TextView
+                android:id="@+id/d2d_dl_bandwidth"
+                android:layout_marginLeft="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_orange_dark"
+                android:text="@string/NA"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
+
+</LinearLayout>
+
+
+

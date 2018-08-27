@@ -1,0 +1,124 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:1:1-33:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/yangjian/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/8c8334fd8e545d480eb7001da37536af/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /home/yangjian/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/cc50f1c4c2456fa36d23e92d17b5afad/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/yangjian/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/01eae841926b4ba70f0782611595ae3c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/yangjian/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/d1884372ec107d2ab71332f7fa0d333a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/yangjian/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/ecf7b2278c6e1f73d36ed6869d3fa28f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/yangjian/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/60496fc2d99c79dc71900af1812ab61e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /home/yangjian/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/2b837072f5f3ad174e77aa3e00f08205/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/yangjian/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/96a2ba2bf6ed39a344cb57f76fd58a04/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/yangjian/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/76fb5f3f077157cec701eef7d808ac7a/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/yangjian/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/ff6fc7964a297f5d6c66feaeef2d0b64/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /home/yangjian/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/af4e0fda4a9ade596eb80b48baecd6b1/AndroidManifest.xml:17:1-22:12
+INJECTED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:1:1-33:12
+INJECTED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:1:1-33:12
+	package
+		ADDED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:2:5-44
+		INJECTED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml
+		INJECTED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml
+		ADDED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:1:1-33:12
+		INJECTED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml
+		ADDED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:1:1-33:12
+		INJECTED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:5:5-81
+	android:name
+		ADDED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:5:22-78
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:6:5-78
+	android:name
+		ADDED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:6:22-75
+application
+ADDED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:8:5-32:19
+	android:process
+		ADDED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:14:9-56
+	android:supportsRtl
+		ADDED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:12:9-41
+	android:hardwareAccelerated
+		ADDED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:13:9-43
+	android:icon
+		ADDED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:10:9-45
+	android:allowBackup
+		ADDED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:9:9-35
+activity#com.pinecone.d2dinfofloatball.FloatballActivity
+ADDED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:16:9-25:20
+	android:screenOrientation
+		ADDED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:19:13-50
+	android:configChanges
+		ADDED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:18:13-74
+	android:name
+		ADDED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:17:13-46
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:20:13-24:29
+action#android.intent.action.MAIN
+ADDED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:21:17-69
+	android:name
+		ADDED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:21:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:23:17-77
+	android:name
+		ADDED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:23:27-74
+service#com.pinecone.d2dinfofloatball.D2DInfoFBService
+ADDED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:26:9-53
+	android:name
+		ADDED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:26:18-50
+receiver#com.pinecone.d2dinfofloatball.D2dInfoBootReceiver
+ADDED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:27:9-31:20
+	android:name
+		ADDED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:27:19-54
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:28:13-30:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:29:17-79
+	android:name
+		ADDED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml:29:25-76
+uses-sdk
+INJECTED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml
+INJECTED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/yangjian/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/8c8334fd8e545d480eb7001da37536af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /home/yangjian/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/8c8334fd8e545d480eb7001da37536af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/yangjian/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/cc50f1c4c2456fa36d23e92d17b5afad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /home/yangjian/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/cc50f1c4c2456fa36d23e92d17b5afad/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/yangjian/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/01eae841926b4ba70f0782611595ae3c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /home/yangjian/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/01eae841926b4ba70f0782611595ae3c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/yangjian/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/d1884372ec107d2ab71332f7fa0d333a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /home/yangjian/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/d1884372ec107d2ab71332f7fa0d333a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/yangjian/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/ecf7b2278c6e1f73d36ed6869d3fa28f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /home/yangjian/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/ecf7b2278c6e1f73d36ed6869d3fa28f/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/yangjian/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/60496fc2d99c79dc71900af1812ab61e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/yangjian/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/60496fc2d99c79dc71900af1812ab61e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/yangjian/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/2b837072f5f3ad174e77aa3e00f08205/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /home/yangjian/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/2b837072f5f3ad174e77aa3e00f08205/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/yangjian/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/96a2ba2bf6ed39a344cb57f76fd58a04/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/yangjian/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/96a2ba2bf6ed39a344cb57f76fd58a04/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/yangjian/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/76fb5f3f077157cec701eef7d808ac7a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/yangjian/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/76fb5f3f077157cec701eef7d808ac7a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/yangjian/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/ff6fc7964a297f5d6c66feaeef2d0b64/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/yangjian/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/ff6fc7964a297f5d6c66feaeef2d0b64/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/yangjian/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/af4e0fda4a9ade596eb80b48baecd6b1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /home/yangjian/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/af4e0fda4a9ade596eb80b48baecd6b1/AndroidManifest.xml:20:5-44
+INJECTED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml
+INJECTED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml
+		ADDED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml
+		INJECTED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml
+		ADDED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml
+		INJECTED from /media/yangjian/Data/aosp/d2dinfofloatball/app/src/main/AndroidManifest.xml

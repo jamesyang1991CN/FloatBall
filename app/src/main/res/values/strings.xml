@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">D2DInfoFloatBall</string>
+    <string name="accessibility">开启悬浮球辅助功能</string>
+    <string name="switch_on">ON</string>
+    <string name="switch_off">OFF</string>
+    <string name="NA">N/A</string>
+    <string name="notifi_content">  .... Click me!  Open float ball!  Enjoy ....</string>
+    <string name="str_d2d_config_ul_freq_hop">上行跳频:</string>
+    <string name="str_d2d_config_dl_freq_hop">下行频点自适应调节:</string>
+    <string name="str_d2d_freq_hopping_disabled">已关闭</string>
+    <string name="str_d2d_freq_hopping_enabled">已启用</string>
+
+    <string name="str_d2d_config_radio_power">飞行模式:</string>
+    <string name="str_d2d_radio_power_disabled">飞行模式已开启</string>
+    <string name="str_d2d_radio_power_enabled">飞行模式已关闭</string>
+
+    <string name="str_controller_signal_strength">遥控器信号强度:</string>
+    <string name="str_signal_strength_unknown">未知</string>
+    <string name="str_plane_signal_strength">飞机信号强度:</string>
+
+    <string name="str_plane_service_state">飞机连接状态:</string>
+    <string name="str_d2d_connected">已连接</string>
+    <string name="str_d2d_disconnected">未连接</string>
+
+
+    <string name="str_plane_qos">飞机QOS状态:</string>
+    <string name="d2d_config_command_dl_frequency">频点:</string>
+    <string name="str_d2d_config_iface_dev">D2D通道设置:</string>
+    <string name="str_d2d_iface_40">lmi40</string>
+    <string name="str_d2d_iface_41">lmi41</string>
+    <string name="str_d2d_config_ul_bandwidth">上行带宽:</string>
+    <string name="str_d2d_config_dl_bandwidth">下行带宽:</string>
+    <string name="d2d_config_command_id">命令类型:</string>
+    <string name="d2d_config_command_parameter">命令参数:</string>
+</resources>
